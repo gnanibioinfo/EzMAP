@@ -1,1 +1,6 @@
-
+Test Data
+The test dataset consists of 16S rRNA sequencing (Illumina MiSeq) reads from 12 samples (6 from endosphere and 6 from Rhizosphere). 
+These reads were downloaded from the National Center for Biotechnology Information Short Read Archive (accession no. SRP044745). 
+The manifest file with link/path to fastq filw of 12 samples is availabe in the test dataset folder under the name 
+Bacteria-se-64-manifest [use any text editors to open and edit] 
+The metadata file with sample descriptions is available under the name sample-metadata.tsv [use any text editors to open and edit].
