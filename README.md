@@ -9,6 +9,13 @@ taxonomy assignment and visualization. Most of the microbial community profiling
 3. QIIME2
 4. R and R Studio
 
+**Unzipping/unpacking the EzMAP folder**
+1. Upon downloading the files from this github, Extract the EzMAP-main. 
+2. Inside this folder, locate the "Test_data" folder and save it on Desktop in a folder and name it as "EzMAP_Analysis". Inside this folder, one should have Bacteria_maifest, sample-metadata and raw_data (rename the folder Raw_data(Fastq))
+3. Then copy the **EzMAP.jar** and place it on your Desktop.
+4. Next inside the EzMAP_Tool folder locate the EzMAP folder (EzMAP_Tool>EzMAP>**EzMAP**) and copy the folder and paste it on Desktop as EzMAP. (File folder should consists of other sub-folders (build,dist,Downstream,.....))
+
+
 **Working with EzMAP**
 1. Download the EzMAP rar file and unpack it and place it in EzMAP folder on your desktop.
 2. Now create Manifest file (link/path to fastq files),Metadata files (sample descriptions and variables informations) and raw files (refer to Test_data stucture) and place in a EzMAP_Analysis folder on your desktop.
