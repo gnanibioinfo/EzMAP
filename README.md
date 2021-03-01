@@ -21,28 +21,27 @@ The manifest file with link/path to fastq filw of 12 samples is availabe in the 
 The metadata file with sample descriptions is available under the name sample-metadata.tsv [use any text editors to open and edit].
 
 EzMAP steps:
-1. Open EzMAP with double click on EzMAP.jar
-2. Choose either Run Qiime2 Analysis (uses qiime2 pipline)  or Run Downstream analysis (uses R studio)
+1. Downlad the rar files and extract and store on Desktop and name it as EzMAP (Please make sure it be as ~/Desktop/EzMAP) not as (~/Desktop/EzMAP/EzMAP).
+2. Open EzMAP with double click on EzMAP.jar
+3. On first use of EzMAP, please click on "Install QIIME2" before stating analysis.
+4. Once installation is completed, click on "Start Analysis".
+5. On this screen, if you have biome file please click on "Run Downstream Analysis" and R stuio will popup and EzMAP Application will be opened and upload you biom file and navigate through other menu options.
+6. For upstream analysis (Preprocessing, classificationa and taxonomy assignments) click on "Run qiime2 analysis".
+7. Here, one can choose the sequencing read types (single-end and paired-end). The test data set provided here is single-end reads.
+8. Provide the working directory, manifest and metadata files (Place the test data on Desktop and name the folder as EzMAP_Analysis) and click on save and next.
+9. Provide the single end primer information, (in case of  provided test data set: CCTACGGGNGGCWGCAG) and click on "Add" and then click on "Execute Sequence Import".
+10. Next click on "Execute cutadaptor" and after trimming click on "view quality plot"
+11. Next provide the base number (base on the quality plot) to trim and truncate the length of reads (In case of test dataset, Trim: 0 and Trun: 230) and click on save and click on the choice of denoising algorithm (In case of test dataset, click on DADA2, which take approximately 2 hrs).
+12. On next screen, in case of provided dataset, choose Greengenes option under DADA2 Filtered.
+13. On final screen, click on view the files generated through DADA2 and greengenes database taxonomy. click on Build Phylogenetic Tree button and tree files will be generated.
+14. On the Main folder (EzMAP_Analysis), a folder named EzMAP_Single_End_Read_Analysis will be generated with multiple subfolders.
+15. For downstream analysis, use the biom file "table-w-tax-meta.biom" that is generated in the folder "EzMAP_Single_End_Read_Analysis".
 
-For QIIME2 Analysis
-1. Clcik on Run QIIME2 analysis button
-2. Select read format (single-end or Paired-end)
-3. Select Working directory (All the computed files will be generated here under results folder)
-4. Select Manifest file  (Required to locate the fastq files)
-5. Select Metadata file (Required to describe the sample variables)
-6. Once selected, click on save button. The configuration file will generated with the paths to working directory, manifest file and metadata file.
-7. Click on import sequences button (upon clicking this a termial window will be poped up and a line "source ezMAP_import.sh" will appear in the text area. [copy this and paste in terminal and hit enter button]
-9. Once the import is successfull, click on view plot [Reads quality plot will be appear in your default browser]
-10. In denoising step, provide the quality trimming paprameters [truncating length and trimming length] and click on proceed. (upon clicking this a termial window will be poped up and a line "source ezMAP_denoising.sh" will appear in the text area. [copy this and paste in terminal and hit enter button]
-12. Once denoising step is successfull, click on view files button and check the deniosing statistics and other rooted and unrooted tree files
-13. Next click convert biom button to generate the biom format file for downstream analysis. [Default name:table-taxonomy.biom]
 
 For Downstream Analysis
-1. First Open R Studio 
+1. Open EzMAP with double click on EzMAP.jar
 2. Click on Run Downstream analysis button (This will open R Studio)
-3. iIn R Studio, set the working directory  as Desktop/EzMAP/Downstream or simply paste the below line in R studio and Execute 
-4. setwd("~/Desktop/EzMAP/Downstream") "library(shiny) runApp()" paste these lines R studio and run
-5. EzMAP shiny App will appear and upload the table-taxonomy.biom file and tree file
+3. In the EzMAP shiny App upload the table-w-tax-meta.biom file and tree file
 6. Phyloseq object will be generated and a summary of phyloseq object will be displayed
 7. Use Alpha, Beta, Differential Analysis and Functional Analysis menus 
 
