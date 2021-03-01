@@ -25,9 +25,12 @@ taxonomy assignment and visualization. Most of the microbial community profiling
 
 **Test Dataset**
 1.The test dataset consists of 16S rRNA sequencing (Illumina MiSeq) reads from 12 samples (6 from endosphere and 6 from Rhizosphere). These reads were downloaded from the National Center for Biotechnology Information Short Read Archive (accession no. SRP044745). (Runtime for this dataset is approximately ~9 hrs)
+
 2.The manifest file with link/path to fastq filw of 12 samples is availabe in the test dataset folder under the name Bacteria-se-64-manifest [use any text editors to open and edit]
-4.The metadata file with sample descriptions is available under the name sample-metadata.tsv [use any text editors to open and edit].
-5. For testing purpose, the metadatafile and manifest file is linked only with four samples (2 from endosphere and 2 from rhizophere).(The runtime for this dataset is approximately 2 hrs)
+
+3.The metadata file with sample descriptions is available under the name sample-metadata.tsv [use any text editors to open and edit].
+
+4. For testing purpose, the metadatafile and manifest file is linked only with four samples (2 from endosphere and 2 from rhizophere).(The runtime for this dataset is approximately 2 hrs)
  
 
 **EzMAP steps:**
