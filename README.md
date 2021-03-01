@@ -56,4 +56,4 @@ taxonomy assignment and visualization. Most of the microbial community profiling
 7. Use Alpha, Beta, Differential Analysis and Functional Analysis menus 
 
 
-This README work is in progress. Please visit this page regularly for more updates. Currently EzMAP requires very few manual installation and executions for features like qiime2 activation and opening R studo. The required packages for R will be automatically installed.
+This README work is in progress. Please visit this page regularly for more updates. 
