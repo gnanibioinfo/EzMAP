@@ -2,13 +2,5 @@ sample-id	barcode-sequence	sample-site	cultivar	compartment
 #q2:types	categorical	categorical	categorical	categorical
 R-Da-IR-50-1		Davis	IR50	Rhizosphere
 R-Da-IR-50-2		Davis	IR50	Rhizosphere
-R-Da-IR-50-3		Davis	IR50	Rhizosphere
 E-Da-IR-50-1		Davis	IR50	Endosphere
 E-Da-IR-50-2		Davis	IR50	Endosphere
-E-Da-IR-50-3		Davis	IR50	Endosphere
-R-Sa-93-11-1		Sacramento	93-11	Rhizosphere
-R-Sa-93-11-2		Sacramento	93-11	Rhizosphere
-R-Sa-93-11-3		Sacramento	93-11	Rhizosphere
-E-Sa-93-11-1		Sacramento	93-11	Endosphere
-E-Sa-93-11-2		Sacramento	93-11	Endosphere
-E-Sa-93-11-3		Sacramento	93-11	Endosphere

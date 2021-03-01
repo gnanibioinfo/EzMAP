@@ -1,16 +1,8 @@
 sample-id	absolute-filepath	
 R-Da-IR-50-1	$PWD/raw_data/JE.Soil.58.fq.gz
 R-Da-IR-50-2	$PWD/raw_data/JE.Soil.82.fq.gz
-R-Da-IR-50-3	$PWD/raw_data/JE.Soil.234.fq.gz
 E-Da-IR-50-1	$PWD/raw_data/JE.Soil.60.fq.gz
 E-Da-IR-50-2	$PWD/raw_data/JE.Soil.84.fq.gz
-E-Da-IR-50-3	$PWD/raw_data/JE.Soil.236.fq.gz
-R-Sa-93-11-1	$PWD/raw_data/JE.Soil.110.fq.gz
-R-Sa-93-11-2	$PWD/raw_data/JE.Soil.134.fq.gz
-R-Sa-93-11-3	$PWD/raw_data/JE.Soil.286.fq.gz
-E-Sa-93-11-1	$PWD/raw_data/JE.Soil.112.fq.gz
-E-Sa-93-11-2	$PWD/raw_data/JE.Soil.136.fq.gz
-E-Sa-93-11-3	$PWD/raw_data/JE.Soil.288.fq.gz
 
 
 
