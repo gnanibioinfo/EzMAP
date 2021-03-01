@@ -10,10 +10,10 @@ EzMAP installation requirments
 4. R and R Studio
 
 Working with EzMAP
-1. Create one folder in your preffered location and inside that place EzMAP folder.
-2. Now create Manifest file (link/path to fastq files) and Metadata files (sample descriptions and variables informations).
+1. Download the EzMAP rar file and unpack it and place it in EzMAP folder on your desktop.
+2. Now create Manifest file (link/path to fastq files),Metadata files (sample descriptions and variables informations) and raw files (refer to Test_data stucture) and place in a EzMAP_Analysis folder on your desktop.
 3. Open EzMAP folder and double click on EzMAP.Jar file and click start button on EzMAP screen.
-4. Choose the options to work accordingly, Run QIIME2 analysis or Run Downstream Analysis.
+5. Choose the options to work accordingly, Run QIIME2 analysis or Run Downstream Analysis.
 
 Test Dataset
 The test dataset consists of 16S rRNA sequencing (Illumina MiSeq) reads from 12 samples (6 from endosphere and 6 from Rhizosphere). These reads were downloaded from the National Center for Biotechnology Information Short Read Archive (accession no. SRP044745). 
@@ -39,11 +39,12 @@ For QIIME2 Analysis
 
 For Downstream Analysis
 1. First Open R Studio 
-2. Click on Run Downstream analysis button 
-3. In next screen, "library(shiny) runApp()" will appear in the text box. Copy this and paste in R studion and run
-4. EzMAP shiny App will appear and upload the table-taxonomy.biom file and tree file
-5. Phyloseq object will be generated and a summary of phyloseq object will be displayed
-6. Use Alpha, Beta, Differential Analysis and Functional Analysis menus 
+2. Click on Run Downstream analysis button (This will open R Studio)
+3. iIn R Studio, set the working directory  as Desktop/EzMAP/Downstream or simply paste the below line in R studio and Execute 
+4. setwd("~/Desktop/EzMAP/Downstream") "library(shiny) runApp()" paste these lines R studio and run
+5. EzMAP shiny App will appear and upload the table-taxonomy.biom file and tree file
+6. Phyloseq object will be generated and a summary of phyloseq object will be displayed
+7. Use Alpha, Beta, Differential Analysis and Functional Analysis menus 
 
 
 This README work is in progress. Please visit this page regularly for more updates. Currently EzMAP requires very few manual installation and executions for features like qiime2 activation and opening R studo. The required packages for R will be automatically installed.
