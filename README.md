@@ -24,6 +24,7 @@ taxonomy assignment and visualization. Most of the microbial community profiling
 5. Choose the options to work accordingly, Run QIIME2 analysis or Run Downstream Analysis.
 
 **Test Dataset**
+
 1.The test dataset consists of 16S rRNA sequencing (Illumina MiSeq) reads from 12 samples (6 from endosphere and 6 from Rhizosphere). These reads were downloaded from the National Center for Biotechnology Information Short Read Archive (accession no. SRP044745). (Runtime for this dataset is approximately ~9 hrs)
 
 2.The manifest file with link/path to fastq filw of 12 samples is availabe in the test dataset folder under the name Bacteria-se-64-manifest [use any text editors to open and edit]
