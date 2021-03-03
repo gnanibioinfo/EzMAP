@@ -11,9 +11,9 @@ taxonomy assignment and visualization. Most of the microbial community profiling
 
 **Unzipping/unpacking the EzMAP folder**
 1. Upon downloading the files from this github, Extract the EzMAP-main. 
-2. Inside this folder, locate the "Test_data" folder and save it on Desktop in a folder and name it as "EzMAP_Analysis". Inside this folder, one should have Bacteria_maifest, sample-metadata and raw_data (rename the folder Raw_data(Fastq))
+2. Inside this folder, locate the "Test_data" folder and save it on Desktop in a folder and name it as "EzMAP_Analysis". Inside this folder, one should have Bacteria_maifest, sample-metadata and raw_data (rename the folder Raw_data(Fastq) to **raw_data**)
 3. Then copy the **EzMAP.jar** and place it on your Desktop.
-4. Next inside the EzMAP_Tool folder locate the EzMAP folder (EzMAP_Tool>EzMAP>**EzMAP**) and copy the folder and paste it on Desktop as **EzMAP** (This folder should consists of other sub-folders (build,dist,Downstream,.....)). [This should be like ~/Desktop/EzMAP/build.. ].
+4. Next inside the EzMAP_Tool folder locate the compresses file EzMAP.zip and unzip/extract (EzMAP_Tool>EzMAP>**EzMAP**) and copy the folder and paste it on Desktop as **EzMAP** (This folder should consists of other sub-folders (build,dist,Downstream,.....)). [This should be like ~/Desktop/EzMAP/build.. ].
 5. Now on clicking the EzMAP.jar on desktop with two other folders (EzMAP and EzMAP_Analysis), the EzMAP interface will be ready for the analysis.
 
 
