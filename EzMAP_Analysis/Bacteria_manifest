@@ -1,0 +1,9 @@
+sample-id	absolute-filepath	
+R-Da-IR-50-1	$PWD/raw_data/JE.Soil.58.fq.gz
+R-Da-IR-50-2	$PWD/raw_data/JE.Soil.82.fq.gz
+E-Da-IR-50-1	$PWD/raw_data/JE.Soil.60.fq.gz
+E-Da-IR-50-2	$PWD/raw_data/JE.Soil.84.fq.gz
+
+
+
+

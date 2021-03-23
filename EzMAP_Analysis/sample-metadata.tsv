@@ -1,0 +1,6 @@
+sample-id	barcode-sequence	sample-site	cultivar	compartment
+#q2:types	categorical	categorical	categorical	categorical
+R-Da-IR-50-1		Davis	IR50	Rhizosphere
+R-Da-IR-50-2		Davis	IR50	Rhizosphere
+E-Da-IR-50-1		Davis	IR50	Endosphere
+E-Da-IR-50-2		Davis	IR50	Endosphere
